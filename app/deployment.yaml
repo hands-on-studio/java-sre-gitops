@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: asia-south1-docker.pkg.dev/sre-gke-lab/java-sre/order-service:PLACEHOLDER
+        image: asia-south1-docker.pkg.dev/sre-gke-lab/java-sre/order-service:9c03fc0a01cc34e4bcf461d32b7c732aac53b66c
         ports:
         - containerPort: 8080
